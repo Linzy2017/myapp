@@ -1,0 +1,56 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "user": [
+    {
+      "account": "123456",
+      "password": "123456"
+    },
+    {
+      "account": "1234567",
+      "password": "1234567"
+    }
+  ],
+  "subject": {
+    "single":[
+      {
+        "question": "天里一枚绳，跌落无处寻--打一生活用品",
+        "selection": ["针", "下雨", "下雪", "下冰雹"],
+        "key": "针"
+      },
+      {
+        "question": "1+1=？",
+        "selection": ["1", "2", "3", "4"],
+        "key": "2"
+      },
+      {
+        "question": "3+3=?",
+        "selection": ["1", "3", "4", "6"],
+        "key": "6"
+      }
+    ],
+    "words": [
+      {
+        "selection": "枯藤老树昏鸦江南水都",
+        "key": "枯藤老树昏鸦"
+      },
+      {
+        "selection": "断肠人在天涯先搜下啊",
+        "key": "断肠人在天涯"
+      },
+      {
+        "selection": "古道西风瘦马相依为命",
+        "key": "古道西风瘦马"
+      }
+
+    ]
+  }
+
+
+}
