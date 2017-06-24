@@ -45,7 +45,7 @@
     <div class="loginBox" v-if="tipType==='login'">
       <div class="group">
         <label>账号:</label>
-        <input type="text" placeholder="请输入账号aa" class="account" v-model="account"/>
+        <input type="text" placeholder="请输入账号" class="account" v-model="account"/>
       </div>
       <div class="group">
         <label>密码:</label>
